@@ -1,4 +1,5 @@
 # coding: utf-8
+# script from: https://forum.omz-software.com/topic/3606/script-to-import-any-file-in-pythonista-from-any-app
 
 import appex
 import clipboard
@@ -19,7 +20,7 @@ def getuniquename(filename, ext):
 
 def main():
     console.clear()
-    dest_path_short = '~/Documents/inbox'
+    dest_path_short = '~/Documents/Inbox'
     dest_path = os.path.expanduser(dest_path_short)
     if not os.path.isdir(dest_path):
         print('Create ' + dest_path_short)

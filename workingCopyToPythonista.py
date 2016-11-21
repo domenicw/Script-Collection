@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
+# script from: https://github.com/cclauss/Pythonista-and-Working-Copy
+
 # Appex script to copy a git file, folder, or repo from the Working Copy app
 
 import appex, os, shutil
